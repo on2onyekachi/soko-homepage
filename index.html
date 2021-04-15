@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soko App</title>
+    <link rel="stylesheet" href="stylesheet/css/lib/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet/css/fa/all.css">
+
+    <script src="stylesheet/js/lib/jquery.min.js"></script>
+    <script src="stylesheet/js/lib/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet/css/main.css">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <div class="">
+            <div class="store-container">
+                <div class="container">
+                    <span class="store-text">store made with <img class="store-logo" src="images/soko.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="store-content-container">
+                <div class="container">
+                    <div class="s-1">
+                        <div class="store-icon">
+                            <span class="fas fa-store-alt"></span>
+                        </div>
+                        <div class="store-target">
+                            <h4 class="store-type">Target</h4>
+                            <address class="store-address">Cham Towers, Plot 12 Nkruma Rd, Kampala, Ug</address>
+                        </div>
+                    </div>
+                    <div class="store-account s-1">
+                        <div class="store-bag">
+                            <img src="images/bag.png" alt="">
+                            <span>Bag</span>
+                        </div>
+                        <div class="store-user">
+                            <i class="far fa-user"></i>
+                            <span>Account</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- #HEADER SECTION -->
+    <!-- MAIN SECTION -->
+    <main class="container">
+        <nav class="category-container">
+            <ul class="catogory-items">
+                <li class="category-item active" >
+                    <a href="#" class="nav-link active" data-id="electronic" >Electronic<span class="nav-link-count">(12)</span></a>
+                </li>
+                <li class="category-item">
+                    <a href="#" class="nav-link" data-id="Face Mask">Face Mask<span class="nav-link-count">(3)</span></a>
+                </li>
+                <li class="category-item">
+                    <a href="#" class="nav-link" data-id="Fresh Food">Fresh Food<span class="nav-link-count">(8)</span></a>
+                </li>
+                <li class="category-item">
+                    <a href="#" class="nav-link" data-id="Grocery">Grocery<span class="nav-link-count">(6)</span></a>
+                </li>
+                <li class="category-item">
+                    <a href="#" class="nav-link"  data-id="Home">Home<span class="nav-link-count">(24)</span></a>
+                </li>
+                <li class="category-item">
+                    <a href="#" class="nav-link" data-id="Kids">Kids<span class="nav-link-count">(9)</span></a>
+                </li>
+            </ul>
+            <div class="all-category">
+                <span class="all-c" data-id="all-cate" >View all categories <span class="fas fa-chevron-right"></span></span>
+            </div>
+        </nav>
+        <section class="main-section">
+            <div class="main-section-container">
+                <div class="searchbox-container">
+                    <form action="" class="form-container">
+                        <div class="searchbox-text">
+                            <input class="search-input" type="text" placeholder="search for product...">
+                            <button class="search-btn" >
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="category-select" >
+                    <span class="category-name-type store-type">Electronic</span><span class="name-type-number" >12</span>
+                </div>
+                <div class="seller-items-main">
+                    <!-- markup  loaded from script goes here -->
+                </div>
+            </div>
+        </section>
+        <aside class="add-to-container" >
+            <div class="add-to">
+                <div class="bag-add-to" >
+                    <span class="store-type" >Bag</span><span class="name-type-number">0</span>
+                </div>
+                <div class="empty-image-show">
+                    <div>
+                        <i class="7x far fa-frown" ></i>
+                    </div>
+                    <div class="empty-details" >
+                        <h5>It's empty here</h5>
+                        <p>Start shopping to add items to your bag</p>
+                    </div>
+                </div>
+
+            </div>
+        </aside>
+    </main>
+    <!-- FEATURES -->
+    <div class="features">
+        <div class="features-container" >
+            <div class="feature" >
+                <div class="feature-img-container" >
+                    <img src="/images/bus.png" alt="">
+                </div>
+                <span>Fast Delivery</span>
+            </div>
+            <div class="feature" >
+                <div class="feature-img-container" >
+                    <img src="/images/buyer.png" alt="">
+                </div>
+                <span>Buyer Protection</span>
+            </div>
+            <div class="feature" >
+                <div class="feature-img-container" >
+                    <img src="/images/24.png" alt="">
+                </div>
+                <span>Customer Support</span>
+            </div>
+        </div>
+    </div>
+    <!-- END OF FEATURES -->
+    <footer class="footer" >
+        <div class="footer-container" >
+            <p>STORE DETAILS</p>
+            <h4 class="store-type" >Target</h4>
+            <address class="store-address" >Cham Tower, Plot 12 Nkruma Rd, Kampala Ug.</address>
+            <div class="social-media">
+                <button><i class="fab fa-whatsapp"></i> Chat with us</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script src="stylesheet/js/main.js"></script>
+
+</body>
+
+</html>
