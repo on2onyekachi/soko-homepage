@@ -7,16 +7,16 @@ const itemContent = [
     {
         itemImage: '/images/bagI.png',
         itemName: "Kids' 2px Cloth Face Masks",
-        itemPrice: '100,000',
-        newPrice: '80,000',
+        itemPrice: '80,000',
+        newPrice: '100,000',
         discount: '-20%'
     },
     {
         itemImage: '/images/baga.png',
         itemName: "Lady Chearleader - Hand Bag",
-        itemPrice: '605,000',
-        newPrice: '500,000',
-        discount: '-53%'
+        itemPrice: '305,000',
+        newPrice: '400,000',
+        discount: '-43%'
     },
     {
         itemImage: '/images/pend.png',

@@ -283,6 +283,7 @@ main {
 }
 .seller-item-detail .old-price{
     color: #bbbbbb;
+    text-decoration: line-through;
 }
 
 .seller-item-add-button {
