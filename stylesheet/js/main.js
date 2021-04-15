@@ -16,7 +16,7 @@ const itemContent = [
         itemName: "Lady Chearleader - Hand Bag",
         itemPrice: '305,000',
         newPrice: '400,000',
-        discount: '-53%'
+        discount: '-43%'
     },
     {
         itemImage: '/images/pend.png',
